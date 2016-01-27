@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import App from 'containers/App'
 
 class Root extends Component {
   render() {
-    return <h1> Hello World </h1>;
+    return <App />;
   }
 }
 

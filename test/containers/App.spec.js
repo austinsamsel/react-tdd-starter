@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Root from 'containers/Root';
+import App from 'containers/App';
 
-describe('(Container) Root', () => {
-  const wrapper = shallow(<Root />);
+describe('(Container) App', () => {
+  const wrapper = shallow(<App />);
 
   it('renders as a <div>', () => {
     expect(wrapper.type()).to.eql('div');

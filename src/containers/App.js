@@ -5,7 +5,7 @@ const styles = {
   background: '#333'
 }
 
-class Root extends Component {
+class App extends Component {
   render() {
     return(
       <div style={styles}>
@@ -14,4 +14,4 @@ class Root extends Component {
     )
   }
 }
-export default Root;
+export default App;
